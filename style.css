@@ -62,6 +62,9 @@ body.dark .fa-sun{
     color: #cb202d;
 }
 
+body.dark .fa-moon{
+    color: orange;
+}
 
 body.dark .sol{
     background-color: #111;
@@ -119,7 +122,7 @@ body.dark .operation {
 }
 
 .fa-sun{
-    color: orange;
+    color: #cb202d;
 }
 
 .ball{
