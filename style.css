@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -238,14 +240,22 @@ button{
 
 @media screen and (max-width: 500px) {
     .container{
-        margin-top: 0px;
+        margin-top: 10px;
+    }
+    body.dark .container{
+        margin-top: 10px;
     }
     .calculator{
         width: 90%;
+        margin-top: 5px;
     }
 }
 
 @media screen and (max-width: 350px) {
+    .container{
+        margin-right: 5px;
+    }
+
     .calculator{
         width: 95%;
     }
@@ -255,6 +265,7 @@ button{
 }
 
 @media screen and (max-width: 290px) {
+
     .calculator{
         width: 100%;
     }
@@ -271,6 +282,7 @@ button{
 }
 
 @media screen and (max-width: 232px) {
+
     .calculator{
         width: 100%;
     }
@@ -288,30 +300,20 @@ button{
 }
 
 @media screen and (max-width: 179px) {
+
     button{
             padding: 4px;
             margin: 2px;
     }
-
     .mode{
         margin-right: 0;
     }
-
-    .container{
-        margin: 0;
-    }
-
     body.dark button{
         padding: 4px;
         margin: 2px;
     }
-
     body.dark .mode{
         margin-right: 0;
-    }
-
-    body.dark .container{
-        margin: 0;
     }
 }
 
@@ -323,5 +325,28 @@ button{
     body.dark button{
         padding: 3px;
         margin: 0.5px;
+    }
+}
+
+@media screen and (max-width: 115px) {
+    .container{
+        margin-right: 5px;
+    }
+
+    button{
+            padding: 2px;
+            margin: 1px;
+    }
+    .mode{
+        margin-right: 0;
+        font: small;
+    }
+    body.dark button{
+        padding: 2px;
+        margin: 1px;
+    }
+    body.dark .mode{
+        margin-right: 0;
+        font-size: small;
     }
 }
