@@ -31,7 +31,7 @@ body.dark #modulus,
 body.dark #divide,
 body.dark #times,
 body.dark #minus, 
-body.dark#plus,
+body.dark #plus,
 body.dark #equal{
     color: #cb202d;
 }
@@ -237,6 +237,9 @@ button{
 
 
 @media screen and (max-width: 500px) {
+    .container{
+        margin-top: 0px;
+    }
     .calculator{
         width: 90%;
     }
